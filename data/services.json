@@ -1095,38 +1095,7 @@
           "Formosan Termites",
           "Other Termite Species"
         ],
-        "pricing": [
-          {
-            "_key": "1bhk",
-            "includes": [
-              "Basic inspection",
-              "Standard treatment",
-              "1 year warranty"
-            ],
-            "price": "₹4,500",
-            "type": "1 BHK (up to 600 sq ft)"
-          },
-          {
-            "_key": "2bhk",
-            "includes": [
-              "Detailed inspection",
-              "Advanced treatment",
-              "3 years warranty"
-            ],
-            "price": "₹5,500",
-            "type": "2 BHK (600-1200 sq ft)"
-          },
-          {
-            "_key": "3bhk",
-            "includes": [
-              "Comprehensive inspection",
-              "Premium treatment",
-              "5 years warranty"
-            ],
-            "price": "₹6,500",
-            "type": "3 BHK (1200+ sq ft)"
-          }
-        ],
+        "pricing": null,
         "service_features": [
           "Chemical barrier treatment",
           "Wood treatment",
@@ -1336,38 +1305,7 @@
           "Drywood Termites",
           "Other Termite Species"
         ],
-        "pricing": [
-          {
-            "_key": "small-property",
-            "includes": [
-              "Basic system",
-              "Standard installation",
-              "5 years warranty"
-            ],
-            "price": "₹15,000",
-            "type": "Small Property (up to 1000 sq ft)"
-          },
-          {
-            "_key": "medium-property",
-            "includes": [
-              "Advanced system",
-              "Professional installation",
-              "7 years warranty"
-            ],
-            "price": "₹25,000",
-            "type": "Medium Property (1000-5000 sq ft)"
-          },
-          {
-            "_key": "large-property",
-            "includes": [
-              "Premium system",
-              "Expert installation",
-              "10 years warranty"
-            ],
-            "price": "Custom Quote",
-            "type": "Large Property (5000+ sq ft)"
-          }
-        ],
+        "pricing": null,
         "service_features": [
           "Permanent chemical barrier",
           "Low maintenance",
@@ -2351,6 +2289,389 @@
       },
       "slug": "sanitization_service",
       "title": "Sanitization service"
+    },
+    {
+      "_key": "3554bf6f8138",
+      "about_service": [
+        {
+          "_key": "a5a4aab73ef1",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "77eed4e2ad6b",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "What is AC Duct Cleaning?"
+            }
+          ],
+          "markDefs": [],
+          "style": "h4"
+        },
+        {
+          "_key": "983612a6e3b1",
+          "_type": "image",
+          "alt": "AC Duct Service",
+          "asset": {
+            "_ref": "image-852dd357975891d2c59e46979a7b580931810db2-1000x772-png",
+            "_type": "reference"
+          },
+          "src": {
+            "asset": {
+              "_createdAt": "2026-04-18T14:20:20Z",
+              "_id": "image-852dd357975891d2c59e46979a7b580931810db2-1000x772-png",
+              "_rev": "ReSrd7SqmdV3lmrZOcO3ww",
+              "_type": "sanity.imageAsset",
+              "_updatedAt": "2026-04-18T14:20:20Z",
+              "assetId": "852dd357975891d2c59e46979a7b580931810db2",
+              "extension": "png",
+              "metadata": {
+                "_type": "sanity.imageMetadata",
+                "blurHash": "VxP%L#s;%2s:xuWBj@j]j[j[~qWVM{bHRP%LazaeayWV",
+                "dimensions": {
+                  "_type": "sanity.imageDimensions",
+                  "aspectRatio": 1.2953367875647668,
+                  "height": 772,
+                  "width": 1000
+                },
+                "hasAlpha": false,
+                "isOpaque": true,
+                "lqip": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAPCAIAAABr+ngCAAAACXBIWXMAAAsTAAALEwEAmpwYAAACPklEQVR4nKWT7U/TQBzH+/fqG018QJc4tlkYrFvXrs9l6+YYQQbDhxiDGIXxEImBtR0a1m6LoIuEUXSVs3dda8w1vvQN+snnze/uvskvd78jEEJBEIRXJAgChBDh+34Yhr+uSBiGvu/j8DjC/zt4HUVGIB/hKjo/JjzPc113MBjYtn10ZHU6WMuyLbtn2V2rY1sdu9vr9/t9u9vr2N0ju2f1+l/PhsCDODw8O3+3/b6+sForL9XK9aq2WK0u1R43agvLC8XKolZeqdcbT1Zry0+1lZelxlr12frm/ofTbz8IiNBweLGxvqsWHnFUkc+U6LRIUQLNFxlG4pIkl0jmM7MUnZ0pyFPyIqksUeXG862DL+cjwgPg9PjzxovXKqsWMjyfkzhGKfBzBUnjOUWcznApcpYkSfJhOpPN5MUZWmAl7c32nvPdJcC5M9jaacpqJZUS4pMSRRXVOaVY5qQSy0r5qSyVmKaSKTZ+T0zcl8hJPhVX6exOs+m6LuE5F2ebzV2W1SbusrdvFZIJls5ROSadZabSdCo+OxkjZ2Ix+c718sQ17cFNJXajNJ3Y3XiLw/ASOJ+O99ZezUuKwnKqIMqyzIsyJymcOCeImiAUZV6sMLl5NlvlmQqXr1c0s9W6BADf9mg0Oj45aR9+1I22rpu6rrcMY/+gtd/SdePQMA8Nox1pGoZpmm3Lsh3HwROG8KP7EELoQQ8bAeHPiD+lBz28j4UQIt8PgmA8Hv/7eOLwf30MAADu5IpACAEAvwHx4Ox0/wyN5AAAAABJRU5ErkJggg==",
+                "palette": {
+                  "_type": "sanity.imagePalette",
+                  "darkMuted": {
+                    "_type": "sanity.imagePaletteSwatch",
+                    "background": "#2b2b2d",
+                    "foreground": "#fff",
+                    "population": 0.75,
+                    "title": "#fff"
+                  },
+                  "darkVibrant": {
+                    "_type": "sanity.imagePaletteSwatch",
+                    "background": "#671d1f",
+                    "foreground": "#fff",
+                    "population": 0,
+                    "title": "#fff"
+                  },
+                  "dominant": {
+                    "_type": "sanity.imagePaletteSwatch",
+                    "background": "#8e615c",
+                    "foreground": "#fff",
+                    "population": 2.41,
+                    "title": "#fff"
+                  },
+                  "lightMuted": {
+                    "_type": "sanity.imagePaletteSwatch",
+                    "background": "#bcd3df",
+                    "foreground": "#000",
+                    "population": 0.52,
+                    "title": "#000"
+                  },
+                  "lightVibrant": {
+                    "_type": "sanity.imagePaletteSwatch",
+                    "background": "#97b8d9",
+                    "foreground": "#000",
+                    "population": 0.5,
+                    "title": "#fff"
+                  },
+                  "muted": {
+                    "_type": "sanity.imagePaletteSwatch",
+                    "background": "#8e615c",
+                    "foreground": "#fff",
+                    "population": 2.41,
+                    "title": "#fff"
+                  },
+                  "vibrant": {
+                    "_type": "sanity.imagePaletteSwatch",
+                    "background": "#c0363a",
+                    "foreground": "#fff",
+                    "population": 0.55,
+                    "title": "#fff"
+                  }
+                },
+                "thumbHash": "9QcOBYKYmJiHiIh/hoZ3hbqgtGgJ"
+              },
+              "mimeType": "image/png",
+              "originalFilename": "image.png",
+              "path": "images/bzw85z9x/production/852dd357975891d2c59e46979a7b580931810db2-1000x772.png",
+              "sha1hash": "852dd357975891d2c59e46979a7b580931810db2",
+              "size": 226061,
+              "uploadId": "1TdWG6694EuYoZ8nHA4zRUsMlEXQEZtJ",
+              "url": "https://cdn.sanity.io/images/bzw85z9x/production/852dd357975891d2c59e46979a7b580931810db2-1000x772.png"
+            }
+          }
+        },
+        {
+          "_key": "a5faf7fa79d5",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "840706708eda",
+              "_type": "span",
+              "marks": [],
+              "text": "AC duct cleaning involves the removal of dust, debris, mold, and airborne contaminants from your HVAC system. Since indoor air circulates multiple times a day, maintaining clean ducts is essential for a healthy indoor environment."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "9bb6d3a83d32",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "949a6283fbdd",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Why is it Important?"
+            }
+          ],
+          "markDefs": [],
+          "style": "h4"
+        },
+        {
+          "_key": "6eb8def21bf7",
+          "_type": "image",
+          "asset": {
+            "_ref": "image-20bebb9daf0c38da5b2ef3aeb2887c6a7aa4a8f4-689x477-png",
+            "_type": "reference"
+          },
+          "src": {
+            "asset": {
+              "_createdAt": "2026-04-18T14:22:38Z",
+              "_id": "image-20bebb9daf0c38da5b2ef3aeb2887c6a7aa4a8f4-689x477-png",
+              "_rev": "aI2Y2Cc8f97hM6CtW3erVE",
+              "_type": "sanity.imageAsset",
+              "_updatedAt": "2026-04-18T14:22:38Z",
+              "assetId": "20bebb9daf0c38da5b2ef3aeb2887c6a7aa4a8f4",
+              "extension": "png",
+              "metadata": {
+                "_type": "sanity.imageMetadata",
+                "blurHash": "V5Hed:00_IH=tkgkD*IpwHI;00~pE2Mx%gM|NIr=Io-:",
+                "dimensions": {
+                  "_type": "sanity.imageDimensions",
+                  "aspectRatio": 1.4444444444444444,
+                  "height": 477,
+                  "width": 689
+                },
+                "hasAlpha": false,
+                "isOpaque": true,
+                "lqip": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAOCAIAAACgpqunAAAACXBIWXMAAAsTAAALEwEAmpwYAAADC0lEQVR4nAXBaVPaCAAA0PzCTqct0ypWBQUF5DCBcCSBHJCQi1zkIBACgSQIaKXUEXXZarfaWXdnP+zsD9r3gP1YfO/z7sFeJBaN7EbeR96+24l8SsSSRRDG0DrZwDG4eLL7If7xTSoWySZ3yQbkeJYdDvmBAkDFQj57Gt//FN/fy2XOkkcnx0cn5TIiCKrY0XhWUNk2Uy4w1RxVy2FwRte4xerCu/TloQ4QOEKTCJw/LRWyiqQoUpdjJbvnBsFS1aw2zdmKPOwwnsr0paYp01dX4Wa7Ca/nhmcDTbIusWQTAWtQVhE77sAbu/48WF4ES4GXCJy0u9pyZH/17MCSQ9fcbjfbp+18tXDCIcA0GyyFUsh59TxVg0tMs90z+lN37DlDlmFRBBM5dto31qHn293Qtf74sf3x/Hj1bTmZjwGBJdtEDa8WyoWT1NFBLn1Gk7QmiobE16uVfDaL1aoijXu27uqy7+ivvx7/+vvl5u56djkBZJHmWxhRzUPpw9jOu8NotFSAGKLBU1ghfZyMH9ZrFYWnZ94wHDkz13j9ef/fv38+Pt2u1jPAUDmZxZu1HHQaPfz4NhbdQWBY6wiqyKJlqJjLUFjN1pW7m/XT9rf1Yvqw8v95uXt92TzcLYGBIWo8QaM5KBU9in6AshldUYOJ743GPd0Q2wyFVUQaX4STl5/Pv9/fXgX2/bX7azv/vpkCrtXpCgSN5qHTaDq2Q2KIN/IuZsvAn/netG+aNI4iUKZVr4ycwfr6y/oyuF95zw/+460DOAZniCTbAEupvfxxlMFRbzjyx/5o4Do921QVBsfgbLKYOSYRWOtw4WT4cLP4vgm/fekDpox3hTrbAMtnB3D6M9eAHUN1TL0r8kKLYhoYXoagdKJ4liAq5xRakjkqHFvLWX8y7gL9bl3lERorYGCCghMyUTA5zBQohcYZrEyUQayYr4FZogKyeIUlKhKDWkprYPGmJQCB2+p20Fb9vFnNKFTOaoM6DepMpSdShtBUGLzTqissaSucJTMaj+sibkgNTcY7MvE/MKLIumT1jG8AAAAASUVORK5CYII=",
+                "palette": {
+                  "_type": "sanity.imagePalette",
+                  "darkMuted": {
+                    "_type": "sanity.imagePaletteSwatch",
+                    "background": "#4c3a32",
+                    "foreground": "#fff",
+                    "population": 0.26,
+                    "title": "#fff"
+                  },
+                  "darkVibrant": {
+                    "_type": "sanity.imagePaletteSwatch",
+                    "background": "#5b5029",
+                    "foreground": "#fff",
+                    "population": 0,
+                    "title": "#fff"
+                  },
+                  "dominant": {
+                    "_type": "sanity.imagePaletteSwatch",
+                    "background": "#888077",
+                    "foreground": "#fff",
+                    "population": 5.96,
+                    "title": "#fff"
+                  },
+                  "lightMuted": {
+                    "_type": "sanity.imagePaletteSwatch",
+                    "background": "#d1cca4",
+                    "foreground": "#000",
+                    "population": 0.03,
+                    "title": "#000"
+                  },
+                  "lightVibrant": {
+                    "_type": "sanity.imagePaletteSwatch",
+                    "background": "#f6ebdc",
+                    "foreground": "#000",
+                    "population": 0.49,
+                    "title": "#000"
+                  },
+                  "muted": {
+                    "_type": "sanity.imagePaletteSwatch",
+                    "background": "#888077",
+                    "foreground": "#fff",
+                    "population": 5.96,
+                    "title": "#fff"
+                  },
+                  "vibrant": {
+                    "_type": "sanity.imagePaletteSwatch",
+                    "background": "#c4b47c",
+                    "foreground": "#000",
+                    "population": 0.01,
+                    "title": "#fff"
+                  }
+                },
+                "thumbHash": "YggGDYCgpZxnd3ekdmh3ZOdQyQN4"
+              },
+              "mimeType": "image/png",
+              "originalFilename": "image.png",
+              "path": "images/bzw85z9x/production/20bebb9daf0c38da5b2ef3aeb2887c6a7aa4a8f4-689x477.png",
+              "sha1hash": "20bebb9daf0c38da5b2ef3aeb2887c6a7aa4a8f4",
+              "size": 476489,
+              "uploadId": "Q11Ik1S0czoJJKgpYGj1C802MGMbLPO5",
+              "url": "https://cdn.sanity.io/images/bzw85z9x/production/20bebb9daf0c38da5b2ef3aeb2887c6a7aa4a8f4-689x477.png"
+            }
+          }
+        },
+        {
+          "_key": "5cc7de6d6be0",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "e341e0c6f738",
+              "_type": "span",
+              "marks": [],
+              "text": "Everyday activities generate pollutants such as dust, pollen, smoke, and chemicals. These particles accumulate inside ducts over time, leading to poor air quality, unpleasant odors, and reduced system efficiency."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "2fa7d2349a86",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "9ba5f6f3417f",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Health Benefits"
+            }
+          ],
+          "markDefs": [],
+          "style": "h4"
+        },
+        {
+          "_key": "bbaa3ffc43f8",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "244ec29ecf36",
+              "_type": "span",
+              "marks": [],
+              "text": "Contaminants like mold, fungus, and allergens inside ducts can trigger respiratory issues, allergies, and sinus problems. Professional duct cleaning helps reduce these risks and improves overall well-being."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "8ee53da215e2",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "1dd98114428b",
+              "_type": "span",
+              "marks": [],
+              "text": "Our Process"
+            }
+          ],
+          "markDefs": [],
+          "style": "h4"
+        },
+        {
+          "_key": "df36637dc32d",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "3d4806a57e80",
+              "_type": "span",
+              "marks": [],
+              "text": "Detailed inspection using robotic cameras"
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "c7e11b7af8fc",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "652464535876",
+              "_type": "span",
+              "marks": [],
+              "text": "Removal of dust, debris, and contaminants "
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "5084ace0babe",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "649a8d76268f",
+              "_type": "span",
+              "marks": [],
+              "text": "Eco-friendly sanitization of ducts "
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "640cf59d02d0",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "6eda22e95d4a",
+              "_type": "span",
+              "marks": [],
+              "text": "Final airflow and cleanliness check"
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        }
+      ],
+      "date": "2026-04-18",
+      "description": "Our AC Duct Cleaning service is designed to improve indoor air quality and ensure a healthier living and working environment. Over time, dust, allergens, mold, and other contaminants accumulate inside HVAC ducts, reducing system efficiency and affecting air circulation.",
+      "details": {
+        "maintenance_contracts": null,
+        "pests_covered": null,
+        "pricing": null,
+        "service_features": [
+          "Robotic Duct Inspection",
+          "Advanced Vacuum Cleaning",
+          "Eco-Friendly Sanitization",
+          "NADCA Standard Process",
+          "Improved Airflow Efficiency",
+          "Allergen & Dust Removal",
+          "Before & After Verification"
+        ],
+        "treatment_details": null,
+        "treatment_process": null,
+        "warranty": null
+      },
+      "image": {
+        "alt": "duct service",
+        "src": "/images/services/duct_cleaning.jpg"
+      },
+      "slug": "duct_cleaning",
+      "title": "Duct Cleaning"
     }
   ]
 }
