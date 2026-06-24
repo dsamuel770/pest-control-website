@@ -3,6 +3,7 @@ import { Inter, Poppins } from "next/font/google";
 import { Toaster } from "react-hot-toast";
 import type { Metadata } from "next";
 import Script from "next/script";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 import { Analytics } from "@vercel/analytics/next";
 
 import ClientLayout from "@/components/ClientLayout";
@@ -125,6 +126,7 @@ export default async function RootLayout({ children }: ChildrenProps) {
 						}}
 					/>
 				</QueryProvider>
+				<SpeedInsights />
 				<Analytics />
 			</body>
 		</html>
