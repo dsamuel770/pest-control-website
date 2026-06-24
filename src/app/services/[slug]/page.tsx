@@ -28,7 +28,8 @@ export async function generateStaticParams() {
 }
 
 export default async function ServicePage({ params }: any) {
-	const service = await getServiceBySlug(params.slug);
+	const { slug } = await params;
+	const service = await getServiceBySlug(slug);
 
 	if (!service) {
 		notFound();

@@ -3355,7 +3355,21 @@
       ],
       "date": "2026-06-24",
       "description": "Professional waterproofing service for homes and commercial spaces to protect terraces, roofs, walls, bathrooms, basements, and water tanks from leakage, seepage, dampness, cracks, peeling paint, and long-term water damage.\n",
-      "details": null,
+      "details": {
+        "maintenance_contracts": null,
+        "pests_covered": null,
+        "pricing": null,
+        "service_features": [
+          "Site Inspection",
+          "Surface Cleaning",
+          "Crack Filling",
+          "Waterproof Coating",
+          "Drying and Layering"
+        ],
+        "treatment_details": null,
+        "treatment_process": null,
+        "warranty": null
+      },
       "image": {
         "alt": "waterproof servicing",
         "src": "/images/services/waterproofing-services.jpg"
