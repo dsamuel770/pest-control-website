@@ -34,6 +34,8 @@ export default async function ServicePage({ params }: any) {
 		notFound();
 	}
 
+	const details = service.details ?? {};
+
 	const whatsappMessage = encodeURIComponent(
 		`Hi, I am interested in your ${service.title.toLowerCase()} services. Please provide more information.`
 	);
@@ -192,7 +194,7 @@ export default async function ServicePage({ params }: any) {
 							)}
 
 						{/* Service Features */}
-						{service?.details?.service_features ? (
+						{details?.service_features ? (
 							<div className="rounded-2xl bg-gray-50 p-4 sm:p-6 ring-1 ring-gray-200">
 								<div className="bg-gradient-to-r from-gray-900/95 to-gray-800/95 px-4 py-2 rounded-lg shadow-md mb-4 sm:mb-6">
 									<div className="flex items-center gap-3">
@@ -203,7 +205,7 @@ export default async function ServicePage({ params }: any) {
 									</div>
 								</div>
 								<div className="grid grid-cols-1 sm:grid-cols-2 gap-2 sm:gap-3">
-									{service.details.service_features.map(
+									{details.service_features.map(
 										(feature: string) => (
 											<div
 												key={feature}
@@ -222,8 +224,8 @@ export default async function ServicePage({ params }: any) {
 						) : null}
 
 						{/* Treatment Details */}
-						{service.details?.treatment_details &&
-							service.details.treatment_details.length > 0 && (
+						{details?.treatment_details &&
+							details.treatment_details.length > 0 && (
 								<div className="rounded-2xl bg-gray-50 p-4 sm:p-6 ring-1 ring-gray-200">
 									<div className="bg-gradient-to-r from-gray-900/95 to-gray-800/95 px-4 py-2 rounded-lg shadow-md mb-4 sm:mb-6">
 										<div className="flex items-center gap-3">
@@ -234,7 +236,7 @@ export default async function ServicePage({ params }: any) {
 										</div>
 									</div>
 									<div className="grid gap-4 sm:gap-6">
-										{service.details.treatment_details.map(
+										{details.treatment_details.map(
 											(detail: any) => (
 												<div
 													key={detail.title}
@@ -287,8 +289,8 @@ export default async function ServicePage({ params }: any) {
 							)}
 
 						{/* Maintenance Contracts */}
-						{service.details?.maintenance_contracts &&
-							service.details.maintenance_contracts.length >
+						{details?.maintenance_contracts &&
+							details.maintenance_contracts.length >
 								0 && (
 								<div className="rounded-2xl bg-gray-50 p-4 sm:p-6 ring-1 ring-gray-200">
 									<div className="bg-gradient-to-r from-gray-900/95 to-gray-800/95 px-4 py-2 rounded-lg shadow-md mb-4 sm:mb-6">
@@ -300,7 +302,7 @@ export default async function ServicePage({ params }: any) {
 										</div>
 									</div>
 									<div className="grid gap-3 sm:gap-4">
-										{service.details.maintenance_contracts.map(
+										{details.maintenance_contracts.map(
 											(contract: any) => (
 												<div
 													key={contract.title}
@@ -326,7 +328,7 @@ export default async function ServicePage({ params }: any) {
 					{/* Sidebar */}
 					<div className="space-y-6 sm:space-y-8">
 						{/* Service Info Card */}
-						{service.details?.warranty && (
+						{details?.warranty && (
 							<div className="rounded-2xl bg-gray-50 p-4 sm:p-6 ring-1 ring-gray-200">
 								<div className="bg-gradient-to-r from-gray-900/95 to-gray-800/95 px-4 py-2 rounded-lg shadow-md mb-4 sm:mb-6">
 									<div className="flex items-center gap-3">
@@ -346,7 +348,7 @@ export default async function ServicePage({ params }: any) {
 												Warranty
 											</p>
 											<p className="text-sm text-gray-600">
-												{service.details.warranty}
+												{details.warranty}
 											</p>
 										</div>
 									</div>
@@ -355,8 +357,8 @@ export default async function ServicePage({ params }: any) {
 						)}
 
 						{/* Pests Covered */}
-						{service.details?.pests_covered &&
-							service.details.pests_covered.length > 0 && (
+						{details?.pests_covered &&
+							details.pests_covered.length > 0 && (
 								<div className="rounded-2xl bg-gray-50 p-4 sm:p-6 ring-1 ring-gray-200">
 									<div className="bg-gradient-to-r from-gray-900/95 to-gray-800/95 px-4 py-2 rounded-lg shadow-md mb-4 sm:mb-6">
 										<div className="flex items-center gap-3">
@@ -367,7 +369,7 @@ export default async function ServicePage({ params }: any) {
 										</div>
 									</div>
 									<div className="flex flex-wrap gap-2">
-										{service.details.pests_covered.map(
+										{details.pests_covered.map(
 											(pest: string) => (
 												<span
 													key={pest}
@@ -382,8 +384,8 @@ export default async function ServicePage({ params }: any) {
 							)}
 
 						{/* Pricing */}
-						{service.details?.pricing &&
-							service.details.pricing.length > 0 && (
+						{details?.pricing &&
+							details.pricing.length > 0 && (
 								<div className="rounded-2xl bg-gray-50 p-4 sm:p-6 ring-1 ring-gray-200">
 									<div className="bg-gradient-to-r from-gray-900/95 to-gray-800/95 px-4 py-2 rounded-lg shadow-md mb-4 sm:mb-6">
 										<div className="flex items-center gap-3">
@@ -394,7 +396,7 @@ export default async function ServicePage({ params }: any) {
 										</div>
 									</div>
 									<div className="space-y-2 sm:space-y-3">
-										{service.details.pricing.map(
+										{details.pricing.map(
 											(price: any) => (
 												<div
 													key={price.type}
@@ -428,8 +430,8 @@ export default async function ServicePage({ params }: any) {
 							rel="noopener noreferrer"
 							className="flex items-center justify-center gap-2 rounded-xl bg-[#25D366] px-4 sm:px-6 py-3 sm:py-4 text-sm sm:text-base font-medium text-white shadow-lg shadow-[#25D366]/20 transition-all hover:bg-[#128C7E] hover:shadow-xl hover:shadow-[#25D366]/30">
 							<WhatsAppIcon className="h-4 w-4 sm:h-5 sm:w-5" />
-							{service.details?.pricing &&
-							service.details.pricing.length > 0
+							{details?.pricing &&
+							details.pricing.length > 0
 								? "Book Appointment"
 								: "Get Free Quote"}
 							<ChevronRight className="h-4 w-4 sm:h-5 sm:w-5 transition-transform group-hover:translate-x-0.5" />
