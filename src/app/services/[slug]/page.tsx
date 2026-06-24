@@ -222,7 +222,7 @@ export default async function ServicePage({ params }: any) {
 						) : null}
 
 						{/* Treatment Details */}
-						{service.details.treatment_details &&
+						{service.details?.treatment_details &&
 							service.details.treatment_details.length > 0 && (
 								<div className="rounded-2xl bg-gray-50 p-4 sm:p-6 ring-1 ring-gray-200">
 									<div className="bg-gradient-to-r from-gray-900/95 to-gray-800/95 px-4 py-2 rounded-lg shadow-md mb-4 sm:mb-6">
@@ -287,7 +287,7 @@ export default async function ServicePage({ params }: any) {
 							)}
 
 						{/* Maintenance Contracts */}
-						{service.details.maintenance_contracts &&
+						{service.details?.maintenance_contracts &&
 							service.details.maintenance_contracts.length >
 								0 && (
 								<div className="rounded-2xl bg-gray-50 p-4 sm:p-6 ring-1 ring-gray-200">
@@ -326,7 +326,7 @@ export default async function ServicePage({ params }: any) {
 					{/* Sidebar */}
 					<div className="space-y-6 sm:space-y-8">
 						{/* Service Info Card */}
-						{service.details.warranty && (
+						{service.details?.warranty && (
 							<div className="rounded-2xl bg-gray-50 p-4 sm:p-6 ring-1 ring-gray-200">
 								<div className="bg-gradient-to-r from-gray-900/95 to-gray-800/95 px-4 py-2 rounded-lg shadow-md mb-4 sm:mb-6">
 									<div className="flex items-center gap-3">
@@ -355,7 +355,7 @@ export default async function ServicePage({ params }: any) {
 						)}
 
 						{/* Pests Covered */}
-						{service.details.pests_covered &&
+						{service.details?.pests_covered &&
 							service.details.pests_covered.length > 0 && (
 								<div className="rounded-2xl bg-gray-50 p-4 sm:p-6 ring-1 ring-gray-200">
 									<div className="bg-gradient-to-r from-gray-900/95 to-gray-800/95 px-4 py-2 rounded-lg shadow-md mb-4 sm:mb-6">
@@ -382,7 +382,7 @@ export default async function ServicePage({ params }: any) {
 							)}
 
 						{/* Pricing */}
-						{service.details.pricing &&
+						{service.details?.pricing &&
 							service.details.pricing.length > 0 && (
 								<div className="rounded-2xl bg-gray-50 p-4 sm:p-6 ring-1 ring-gray-200">
 									<div className="bg-gradient-to-r from-gray-900/95 to-gray-800/95 px-4 py-2 rounded-lg shadow-md mb-4 sm:mb-6">
